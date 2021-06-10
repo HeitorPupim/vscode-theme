@@ -1,0 +1,40 @@
+{
+    "name": "pupim-s-theme",
+    "displayName": "Pupim's Theme",
+    "description": "This theme is part of my VSCode learning",
+    "publisher": "Helz",
+    "author": {
+        "name": "Heitor Pupim",
+        "email": "heitorpupimtoledo@gmail.com"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HeitorPupim/vscode-theme"
+    },
+"galleryBanner": {
+    "color": "#CC00FF",
+    "theme": "dark"
+},
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Heitor Pupim's Theme",
+        "Dark Theme",
+        "Pupims Theme",
+        "Neon Colors"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pupim's Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Pupim's Theme-color-theme.json"
+            }
+        ]
+    }
+}

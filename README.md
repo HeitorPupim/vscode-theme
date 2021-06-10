@@ -1,2 +1,3 @@
 # vscode-theme
-My first VSCode custom theme
+My first person. theme for VSCode =)
+testttttttttttttttttttttttttt

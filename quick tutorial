@@ -1,0 +1,20 @@
+tutorial
+install json
+install bash
+open bash terminal and type:
+npm i -g yo generator-code
+yo code
+select new color theme with the arrow keys
+answer the questions
+after that, you have to type on bash:
+code ./'your theme identifier here' - mine is: "pupim-s-theme"
+so I typed : code ./pupim-s-theme
+It will open another vscode tab
+Open "themes" and you themethere you can edit whatever you want.
+To see your theme, just hit F5
+After the theme is done and package.json is already configured, run in bash:
+1) npm i -g vsce
+2) vsce package
+created a file .vsix and this is the theme ready to install it locally
+to install your file, type in bash:
+code --install-extension "theme-name-here.vsix"
